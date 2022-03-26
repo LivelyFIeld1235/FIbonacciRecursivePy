@@ -11,7 +11,7 @@ def main():
     nth_Pos = input("Enter a valid nth POS value")
     while nth_Pos not in exitCONDITION:
         try:
-            fibonacci_recursiveFUNC(int(nth_Pos))
+            print(fibonacci_recursiveFUNC(int(nth_Pos)))
         except Exception:
             print("something went wrong")
         else:
